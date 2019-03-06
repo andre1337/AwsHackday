@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Cooking with artyom.js</title>
+    <!-- Important to load artyom in the head tag, this give time to load all the voices in the browser -->
+    <script type="text/javascript" src="artyom.window.min.js"></script>
+    <script>
+         // Create a global accesible instance of artyom
+         window.artyom = new Artyom();
+    </script>
+  </head>
+  <body>
+<div>
+    <input type="button" onclick="startArtyom()" value="start command">
+</div>
+    <script>
+        function startArtyom(){
+            artyom.initialize({
+   lang:"id-ID",// More languages are documented in the library
+   continuous:false,//if you have https connection, you can activate continuous mode
+   debug:true,//Show everything in the console
+   listen:true // Start listening when this function is triggered
+});   
+        }
+
+        artyom.addCommands({
+  smart:true,// We need to say that this command is smart !
+  indexes:["siapa *"], // * = the spoken text after How many people live in is recognized
+  action:function(i,wildcard){
+    switch(wildcard){
+      case "nanya":
+        artyom.say("lo kamvret!");
+      break;
+      case "kamu":
+      artyom.say("saya adalah orang gila");
+      break;
+      default:
+       // alert("I don't know what city is " + * + ". try to increase the switch cases !");
+      break;
+    }
+  }
+});
+
+     artyom.addCommands({
+  indexes:["hai"],
+  action: function(i){
+    if(i == 0) {
+        artyom.say("Hai, Tayo, Hai, Tayo, dia bis kecil bangsat")
+    }
+   // console.log("Something matches");
+  }
+});
+    </script>
+    
+  </body>
+</html>
