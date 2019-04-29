@@ -1,0 +1,203 @@
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\WindowsApp2.exe.config
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\WindowsApp2.exe
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\WindowsApp2.pdb
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\WindowsApp2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Data.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Printing.v17.2.Core.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Utils.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraEditors.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Win.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\MySql.Data.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraBars.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraLayout.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\Google.Protobuf.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Office.v17.2.Core.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Images.v17.2.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Data.v17.2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Printing.v17.2.Core.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Utils.v17.2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraEditors.v17.2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Win.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\MySql.Data.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraBars.v17.2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraTreeList.v17.2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraLayout.v17.2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\DevExpress.Office.v17.2.Core.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.Form1.resources
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.Resources.resources
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbproj.GenerateResource.cache
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.exe.licenses
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbproj.CopyComplete
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.exe
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.xml
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.pdb
+C:\Users\user\source\repos\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbprojAssemblyReference.cache
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\WindowsApp2.exe.config
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\WindowsApp2.exe
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\WindowsApp2.pdb
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\WindowsApp2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Data.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Printing.v17.2.Core.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Utils.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraEditors.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Core.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Win.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraPrinting.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\Mitov.BasicLab.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\Mitov.InstrumentLab.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\Mitov.InstrumentLabDigital.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\Mitov.TimingLabBasic.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\Mitov.UserLabBasic.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Pdf.v17.2.Core.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Sparkline.v17.2.Core.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraBars.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.RichEdit.v17.2.Core.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraTreeList.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraLayout.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\Google.Protobuf.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Office.v17.2.Core.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Images.v17.2.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Data.v17.2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Printing.v17.2.Core.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Utils.v17.2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraEditors.v17.2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Core.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraGauges.v17.2.Win.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraPrinting.v17.2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\MySql.Data.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Pdf.v17.2.Core.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Sparkline.v17.2.Core.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraBars.v17.2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.RichEdit.v17.2.Core.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraTreeList.v17.2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.XtraLayout.v17.2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\DevExpress.Office.v17.2.Core.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Data.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Data.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Data.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Data.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Printing.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Printing.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Printing.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Printing.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Utils.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Utils.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Utils.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Utils.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraEditors.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraEditors.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraEditors.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraEditors.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraPrinting.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraPrinting.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraBars.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraBars.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraBars.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraBars.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraTreeList.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraTreeList.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.XtraLayout.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.XtraLayout.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.XtraLayout.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.XtraLayout.v17.2.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\de\DevExpress.Office.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\es\DevExpress.Office.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ja\DevExpress.Office.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\bin\Release\ru\DevExpress.Office.v17.2.Core.resources.dll
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbprojAssemblyReference.cache
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.Form1.resources
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.Form2.resources
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.Form3.resources
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.Form5.resources
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.Resources.resources
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbproj.GenerateResource.cache
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.exe.licenses
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbproj.CoreCompileInputs.cache
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.vbproj.CopyComplete
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.exe
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.xml
+D:\skripsi kevin\inkubasi Aplikasi skripsi\Skripsi\WindowsApp2\obj\Release\WindowsApp2.pdb

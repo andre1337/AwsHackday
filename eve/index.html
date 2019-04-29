@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventbrite Application</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" type="text/javascript" src="javascript.js"> -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css">
+
+
+<body>
+
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+
+<!--HEADER STARTS-->
+<header>
+  <nav>
+      <!-- ==== NAVIGATION BAR STARTS ==== -->
+      <div class="menuOptions">
+        <ul>
+          <li><a href="http://localhost:8080/#?q=microgrid" class="textBar"> Cek Disini</a></li>
+        </ul>
+      </div>
+      
+  </nav>
+</header>
+
+
+
+
+
+
+  
+  <section>
+    <div id="searchBar">
+      <div id='introduction'>
+        <h3 class="statement">Cari event tentang berbagai teknologi energi terbaharukan</h3>
+
+     
+      </div>
+      <div id="search-box-wrapper-term">
+        <form>
+          <input type="text" id="search_term" value='Example: Cardiff'>
+          <input type="button"  id="search_button" value="Search">
+        </form>
+      </div>
+
+     
+      <div id="search-box-wrapper-time">
+        <form>
+          <div>
+            <select id="lang">
+            <!--<select name="mydropdown">-->
+            <!-- <option value="this_month">This Month</option> -->
+              <option value="next_week"> Minggu depan</option>
+              <option value="this_weekend"> Hari ini</option>
+              <option value="this_week"> Minggu ini</option>
+              <option value="tomorrow">Besok</option>
+              <option value="today">Hari ini</option>
+              <option value="none" selected>Cari kapan</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div id="wrapper">
+        <div id="mapBox">
+          <div id="mapLayer"></div>
+        </div>
+        <div id="eventsBox">
+          <div id="output"></div>
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script>
+
+
+    var processResponse = function(response){
+    var output_div = document.querySelector('#output');
+    output_div.innerHTML="";
+
+    var events = response.events;
+
+    
+    for(let i = 0; i < events.length; i++){
+
+      var iDiv3 = document.createElement ('div');
+      iDiv3.id= 'picture';
+
+      if (events[i].logo === null) {
+
+          iDiv3.append("");
+      } else {
+        var image = events[i].logo.url;
+        console.log(image);
+        var new_image = document.createElement('img');
+        new_image.src = image;
+        new_image.id = 'logo';
+        iDiv3.append(new_image);
+      }
+      
+      var a = document.createElement('a');
+      var title = events[i].name.text;
+      var textLink = document.createTextNode(title);
+      a.appendChild(textLink);
+      a.href = (events[i].url);
+      a.id = 'hyperlink';
+      var time = events[i].start.local;
+      var hour = " " + time.substring(11, 16) + ' h.';
+      var date = time.substring(0, 10);
+      var details = events[i].description.text;
+      var description_time = document.createTextNode(hour);
+      var events_detail = document.createTextNode(details)
+      var date_event = document.createTextNode(date);
+      var paragraph = document.createElement('p');
+      paragraph.className = 'paragraph';
+      var paragraph_two = document.createElement('p');
+      paragraph_two.id='time';
+      var button = document.createElement('a');
+      var filling = "Tickets";
+      var Link = document.createTextNode(filling);
+      button.appendChild(Link);
+      button.href = (events[i].url);
+      button.id = 'square';
+      var paragraph_three = document.createElement('p');
+      paragraph_three.id='tickets_button';
+      var iDiv = document.createElement ('div');
+      iDiv.className= 'event';
+      identity = events[i].id;
+      iDiv.id= identity;
+      var iDiv2 = document.createElement ('div');
+      iDiv2.id= 'text';
+
+      paragraph.append(a);
+      paragraph.append(document.createElement('br'));
+      paragraph_two.append(date_event);
+      paragraph_two.append(description_time);
+      paragraph_three.append(button);
+      iDiv2.append(paragraph_two);
+      iDiv2.append(paragraph);
+      iDiv2.append(paragraph_three);
+      iDiv.append(iDiv2);
+      iDiv.append(iDiv3);
+      output_div.appendChild(iDiv);
+      }
+    }
+
+ 
+  var encodeParameters = function(parameters) {
+      var strArray = [];
+      for (var key in parameters) {
+        if (parameters.hasOwnProperty(key)){
+          var paramString = encodeURIComponent(key) + "=" + encodeURIComponent(parameters[key]);
+          strArray.push(paramString);
+          }
+        }
+      return strArray.join("&");
+      }
+
+
+  
+  var doSearch = function(search_term, time) {
+    var base_url = 'https://www.eventbriteapi.com/v3/events/search/';
+
+
+      var params = { 
+          token: 'GKHQ3GIQ7TPQFDIAHL62',
+          'location.address': search_term,
+          'start_date.keyword': time,
+
+          }
+
+    var query_url = base_url + "?" + encodeParameters(params);
+    console.log(query_url);
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", query_url);
+    xhttp.addEventListener('load', function(){
+      var response = JSON.parse(this.response);
+      console.log(response);
+      for (let i = 0; i < response.events.length; i++) {
+        coordinates(response.events[i]);
+      }
+      processResponse(response);
+
+    })
+    xhttp.send();
+  }
+
+  
+  var doSearchTwo = function(search_term, time) {
+    var base_url = 'https://www.eventbriteapi.com/v3/events/search/';
+      var params = { 
+          token: 'GKHQ3GIQ7TPQFDIAHL62',
+          'location.address': search_term,
+          'start_date.keyword': time,
+          'page': 2,
+          }
+
+    var query_url = base_url + "?" + encodeParameters(params);
+    console.log(query_url);
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", query_url);
+    xhttp.addEventListener('load', function(){
+      var response = JSON.parse(this.response);
+      console.log(response);
+      for (let i = 0; i < response.events.length; i++) {
+        coordinates(response.events[i]);
+      }
+      processResponse(response);
+    })
+
+    xhttp.send();
+  }
+
+  var doSearchThree = function(search_term, time) {
+    var base_url = 'https://www.eventbriteapi.com/v3/events/search/'; 
+
+
+      var params = { 
+          token: 'GKHQ3GIQ7TPQFDIAHL62',
+          'location.address': search_term,
+          'start_date.keyword': time, 
+          'page': 3,
+          }
+
+    var query_url = base_url + "?" + encodeParameters(params);
+    console.log(query_url);
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", query_url);
+    xhttp.addEventListener('load', function(){
+      var response = JSON.parse(this.response);
+      console.log(response);
+      for (let i = 0; i < response.events.length; i++) {
+        coordinates(response.events[i]);
+      }
+
+      processResponse(response);
+    })
+    xhttp.send();
+  }
+
+  var doSearchFour = function(search_term, time) {
+    var base_url = 'https://www.eventbriteapi.com/v3/events/search/'; 
+
+      var params = { 
+          token: 'GKHQ3GIQ7TPQFDIAHL62',
+          'location.address': search_term,
+          'start_date.keyword': time, 
+          'page': 4,
+          }
+
+    var query_url = base_url + "?" + encodeParameters(params);
+    console.log(query_url);
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", query_url);
+    xhttp.addEventListener('load', function(){
+      var response = JSON.parse(this.response);
+      console.log(response);
+      for (let i = 0; i < response.events.length; i++) {
+        coordinates(response.events[i]);
+      }
+
+      processResponse(response);
+    })
+    xhttp.send();
+  }
+
+  var doSearchFive = function(search_term, time) {
+    var base_url = 'https://www.eventbriteapi.com/v3/events/search/'; 
+
+
+      var params = { 
+          token: 'GKHQ3GIQ7TPQFDIAHL62',
+          'location.address': search_term,
+          'start_date.keyword': time, 
+          'page': 5,
+          }
+
+    var query_url = base_url + "?" + encodeParameters(params);
+    console.log(query_url);
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", query_url);
+    xhttp.addEventListener('load', function(){
+      var response = JSON.parse(this.response);
+      console.log(response);
+      for (let i = 0; i < response.events.length; i++) {
+        coordinates(response.events[i]);
+      }
+
+      processResponse(response);
+    })
+    xhttp.send();
+  }
+
+
+ 
+  var coordinates = function(event) {
+    var venueID = event.venue_id;
+    var base_url = 'https://www.eventbriteapi.com/v3/venues/'; 
+
+    var params = { 
+        token: 'GKHQ3GIQ7TPQFDIAHL62',
+        venues: venueID
+    }
+
+    var query_url = base_url + venueID + "/?" + encodeParameters(params);
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", query_url);
+    xhttp.addEventListener('load', function(){
+      var response = JSON.parse(this.response);
+
+      var marker = L.marker([response.latitude, response.longitude]);
+      marker.addTo(map);
+
+      var html_string = '<strong>Event: </strong>' + event.name.text + '<br>' + '<strong>Day: </strong> ' + event.start.local.substring(0,10) + '<br>' + '<strong>Day: </strong> ' + event.start.local.substring(11,16) + '<br>' + '<strong>Place: </strong>' + response.name + 'h.' + '<br>' + '<a href=#event.id>Find it in the column </a> '  ;
+      marker.bindPopup(html_string);
+      marker.addTo(map);
+
+    })
+    xhttp.send();
+  }
+
+
+
+
+    var map = L.map('mapLayer');
+
+    map.setView([51.481, -3.649], 6.5); 
+
+    var myStyle = 'https://api.mapbox.com/styles/v1/miguelrofer/cjajt7n9nb5w52sl4xpqulxaj/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWlndWVscm9mZXIiLCJhIjoiY2phanF3cTAxMzRiYTMycTgyd25teGpzZiJ9.xLMqsvl1eTBNM1hb-RwP7w'
+    var defaultStyle = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}'
+
+
+    L.tileLayer(myStyle,
+    {
+      maxZoom: 18,
+      id: 'mapbox.streets',
+      accessToken: 'pk.eyJ1IjoibWlndWVscm9mZXIiLCJhIjoiY2phanF3cTAxMzRiYTMycTgyd25teGpzZiJ9.xLMqsvl1eTBNM1hb-RwP7w'}).addTo(map)
+
+    map.on('click', function(event){
+      console.log(event.latlng.toString());
+      console.log('clicked');
+    })
+
+
+
+
+
+  var search_button = document.querySelector('#search_button');
+  search_button.addEventListener('click', function(){
+    console.log('clicked');
+    var search_term = document.querySelector('#search_term').value;
+    console.log(search_term);
+    var time = document.querySelector('#lang').value;
+    console.log(time);
+
+
+      doSearch(search_term, time);
+      doSearchTwo(search_term, time);
+      doSearchThree(search_term, time);
+      doSearchFour(search_term, time);
+      doSearchFive(search_term, time);
+
+  })
+
+  </script>
+
+  </body>
+</html>
